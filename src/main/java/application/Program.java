@@ -47,5 +47,6 @@ public class Program {
             System.out.print("\n" + emp.getName() + " - $" + String.format("%.2f", emp.payment()));
         }
 
+        input.close();
     }
 }
